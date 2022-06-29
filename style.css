@@ -1,0 +1,161 @@
+
+:root{
+    --main-purple : #162A60;
+    --primary-purple : #D43B80;
+}
+
+body{
+    background-color: #162A60;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.nav-list {
+    margin-left: auto;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 2rem;
+}
+
+.nav-list a:hover{
+    font-weight: 700;
+    border-bottom: 2px solid var(--primary-purple);
+}
+
+nav button {
+    width: 126px;
+    height: 45px;
+    background: var(--main-purple);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.head {
+    width: 95%;
+    margin: auto;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.head-details img{
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.head-details h1{
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 92px;
+    width: 731px;
+} 
+
+.head-details h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    width: 637px;
+}
+
+.head-details button {
+    background: var(--primary-purple);
+    border: none;
+    color: white;
+    border-radius: 16px;
+    width: 218px;
+    height: 60px;
+    margin-top: 1.2rem;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.blur-box {
+    width: 123px;
+    height: 123px;
+    background-color: var(--primary-purple);
+    filter: blur(150px);
+    z-index: -1;
+    position: absolute;
+    margin-left: 5rem;
+}
+
+.head-details-img img {
+    border: 1px solid blue;
+    width: 447px;
+    padding: 1rem;
+    border-radius: 35px;
+    margin-top: 2rem;
+    margin-left: 8rem;
+    z-index: 1;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.about-us{
+    color: var(--main-purple);
+    
+    background-color: white;
+    padding: 6rem 4rem;
+}
+
+.about-us h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-us p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.greenDots{
+    margin-top: -11rem;
+    margin-left: 10rem;
+    position: absolute;
+    z-index: 1;
+    width: 202px;
+}
+
+.dynamic-contents{
+    color: white;
+    padding: 2rem;
+}
+
+.dynamic-contents h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.dynamicImages{
+    display: flex;
+    margin: 3rem auto;
+    gap: 1.5rem;
+}
+
+.community {
+    color: var(--main-purple);
+    background: white;
+    padding: 2rem;
+}
