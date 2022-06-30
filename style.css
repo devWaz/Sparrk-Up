@@ -138,9 +138,27 @@ nav button {
     width: 202px;
 }
 
+.whirl3 {
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: -5rem;
+}
+
 .dynamic-contents{
     color: white;
     padding: 2rem;
+}
+
+.goldStars{
+    position: absolute;
+    margin-left: 65rem;
+    margin-top: -6rem;
+}
+
+.whirl2{
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 15rem;
 }
 
 .dynamic-contents h2{
@@ -154,6 +172,15 @@ nav button {
     gap: 1.5rem;
 }
 
+.yellow-blur-box{
+    width: 123px;
+    height: 123px;
+    background: #E08330;
+    position: absolute;
+    margin-left: 35rem;
+    filter: blur(150px);
+}
+
 .community {
     color: var(--main-purple);
     background: white;
@@ -161,7 +188,7 @@ nav button {
 }
 
 .Spaghetti{
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
 
 .community h2{
@@ -175,15 +202,10 @@ nav button {
     line-height: 29px;
 }
 
-.community-image{
-    border: 1px solid red;
-    overflow: visible;
-}
-
 .blob {
     width: 569px;
     z-index: 1;
-    margin-top: -45rem;
+    margin-top: -42rem;
 }
 
 .blueDots{
@@ -194,15 +216,15 @@ nav button {
 
 .colleagues-standing{
     z-index: 2;
-    margin-top: -47rem;
+    margin-top: -43rem;
     height: 688.96px;
     margin-left: 2rem;
 }
 
 .greenDash{
     z-index: -2;
-    margin-top: 7rem;
-    margin-left: -7rem;
+    margin-top: 5rem;
+    margin-left: -5rem;
 }
 
 footer p{
