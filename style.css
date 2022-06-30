@@ -157,5 +157,58 @@ nav button {
 .community {
     color: var(--main-purple);
     background: white;
-    padding: 2rem;
+    padding: 4rem 2rem;
+}
+
+.Spaghetti{
+    margin: 4rem 0;
+}
+
+.community h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.community p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.community-image{
+    border: 1px solid red;
+    overflow: visible;
+}
+
+.blob {
+    width: 569px;
+    z-index: 1;
+    margin-top: -45rem;
+}
+
+.blueDots{
+    width: 258px;
+    z-index: -1;
+    margin-left: 16rem;
+}
+
+.colleagues-standing{
+    z-index: 2;
+    margin-top: -47rem;
+    height: 688.96px;
+    margin-left: 2rem;
+}
+
+.greenDash{
+    z-index: -2;
+    margin-top: 7rem;
+    margin-left: -7rem;
+}
+
+footer p{
+    text-align: center;
+    margin: 2rem;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
