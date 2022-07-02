@@ -1,11 +1,12 @@
 *{
 	box-sizing:border-box;
+    margin:0;
+	padding:0;
 }
 
-body{
-	margin:0;
-	padding:0;
+.wheel{
 	display:flex;
+    flex-direction: column;
 	align-items:center;
 	justify-content: center;
 	height:100vh;
@@ -21,7 +22,7 @@ body{
 	border:15px solid #162A60;
 	position: relative;
 	overflow: hidden;
-    transition: 5s;
+    transition: all 10s ease-out;
 }
 
 .container div{
@@ -80,12 +81,11 @@ body{
 	transform: rotate(315deg);
 }
 
-
 .marker {
     position: absolute;
     width: 30px;
-    top: 0px;
-	left:47%;
+    left: 49%;
+    top: 15px;
     z-index: 10;
 }
 
@@ -107,3 +107,17 @@ body{
 	outline:none;
 	letter-spacing: 1.2px;
 }
+
+ .display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px auto;
+
+} 
