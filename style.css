@@ -234,8 +234,36 @@ footer p{
     font-weight: 700;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:600px) {
     .head-details h1 {
         color: red;
+        font-size: 40px;
+        width: 8em;
+        line-height: 1.5em;
+        border: 1px solid red;
+    }
+
+    .head-details h5 {
+        font-size: 15px;
+        width: 18rem;
+        border: 1px solid red;
+        line-height: 1.5rem;
+    }
+
+    .dynamicImages{
+        flex-direction: column;
+    }
+
+    .greenDots {
+        width: 5rem;
+        margin: 0;
+        margin-top: -8rem;
+    }
+
+    .whirl3{
+        margin: 0;
+        width: 4rem;
+        margin-top: -3rem;
+        margin-left: 10rem;
     }
 }
