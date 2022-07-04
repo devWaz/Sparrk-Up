@@ -45,6 +45,7 @@ nav button {
     border: 1px solid white;
     border-radius: 10px;
     font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
 }
 
@@ -88,6 +89,7 @@ nav button {
     width: 218px;
     height: 60px;
     margin-top: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
@@ -96,14 +98,14 @@ nav button {
     width: 123px;
     height: 123px;
     background-color: var(--primary-purple);
-    filter: blur(150px);
+    filter: blur(100px);
     z-index: -1;
     position: absolute;
     margin-left: 5rem;
 }
 
 .head-details-img img {
-    border: 1px solid blue;
+    border: 1px solid black;
     width: 447px;
     padding: 1rem;
     border-radius: 35px;
@@ -200,6 +202,10 @@ nav button {
     margin: 3rem 0;
 }
 
+.community-text{
+    width: 50%;
+}
+
 .community h2{
     font-size: 40px;
     font-weight: 700;
@@ -209,6 +215,21 @@ nav button {
     font-size: 20px;
     font-weight: 500;
     line-height: 29px;
+}
+
+.community-image{
+    display: flex;
+    border: 1px solid red;
+    width: 50%;
+}
+
+.people {
+    /* width: 15rem; */
+    /* position: absolute; */
+    margin: 0 auto;
+    margin-right: 5rem;
+    border: 1px solid blue;
+    color: #;
 }
 
 
@@ -222,6 +243,10 @@ footer p{
 }
 
 @media screen and (max-width:600px) {
+    nav{
+        border: 1px solid red;
+    }
+    
     nav img {
         width: 7rem;
     }
@@ -232,6 +257,8 @@ footer p{
 
     .head-details {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .head-details h1 {
@@ -239,24 +266,30 @@ footer p{
         width: 100%;
         margin: auto;
         line-height: 1.5em;
-        border: 1px solid red;
     }
 
     .head-details h5 {
         font-size: 15px;
         width: 100%;
         margin: auto;
-        /* text-align: center; */
-        border: 1px solid red;
         line-height: 1.5rem;
     }
 
     .head-details button {
         width: 8rem;
         height: 3rem;
-        font-size: 12px;
+        font-size: 15px;
         border-radius: 8px;
-        margin:1rem auto;
+        margin: 1rem auto;
+    }
+
+    .head-details-img{
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    .blur-box{
+        display: none;
     }
 
     .head-details-img img {
@@ -277,8 +310,7 @@ footer p{
 
     .whirl {
         margin: 0;
-        width: 10rem;
-        border: 1px solid red;
+        width: 7rem;
         margin: auto;
     }
 
@@ -304,6 +336,10 @@ footer p{
 
     .yellow-blur-box {
         margin: 0;
+        border: 1px solid red;
+        margin-left: 10rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     .community{
@@ -319,5 +355,10 @@ footer p{
         width: 5rem;
         margin: 0;
         margin: 1rem 0;
+    }
+
+    .people {
+        width: 15rem;
+        margin: 1rem auto;
     }
 }
