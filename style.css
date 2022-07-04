@@ -32,6 +32,10 @@ nav{
     margin: 0 2rem;
 }
 
+.icon {
+    display: none;
+}
+
 .nav-list a:hover{
     font-weight: 700;
     border-bottom: 2px solid var(--primary-purple);
@@ -219,17 +223,12 @@ nav button {
 
 .community-image{
     display: flex;
-    border: 1px solid red;
     width: 50%;
 }
 
 .people {
-    /* width: 15rem; */
-    /* position: absolute; */
     margin: 0 auto;
     margin-right: 5rem;
-    border: 1px solid blue;
-    color: #;
 }
 
 
@@ -245,10 +244,17 @@ footer p{
 @media screen and (max-width:600px) {
     nav{
         border: 1px solid red;
+        position: relative;
+        overflow: hidden;
     }
     
     nav img {
         width: 7rem;
+    }
+
+    .icon img{
+        display: block;
+        width: 3rem;
     }
 
     .head{
@@ -336,7 +342,6 @@ footer p{
 
     .yellow-blur-box {
         margin: 0;
-        border: 1px solid red;
         margin-left: 10rem;
         width: 5rem;
         height: 5rem;
@@ -358,7 +363,17 @@ footer p{
     }
 
     .people {
-        width: 15rem;
+        width: 100%;
         margin: 1rem auto;
     }
+
+    .community-image{
+        width: 100%;
+    }
+
+    .community-text{
+        width: 100%;
+    }
+    
+    
 }
