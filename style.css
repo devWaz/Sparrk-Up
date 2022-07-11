@@ -32,7 +32,7 @@ nav{
     margin: 0 2rem;
 }
 
-.icon {
+.hamburger{
     display: none;
 }
 
@@ -248,13 +248,32 @@ footer p{
         overflow: hidden;
     }
     
-    nav img {
+    .logo {
         width: 7rem;
     }
 
-    .icon img{
+    .nav-log-in{
+        display: none;
+    }
+
+    .nav-list{
+        /* display: none; */
+    }
+
+    .topnav a {
+        display: block;
+        padding: 14px 16px;
+        font-size: 12px;
+    }
+
+    .hamburger {
         display: block;
         width: 3rem;
+        height: 3rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        border: 1px solid green;
     }
 
     .head{
