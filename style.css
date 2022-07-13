@@ -6,6 +6,7 @@
 :root{
     --main-purple : #162A60;
     --primary-purple : #D43B80;
+    --gradient : linear-gradient(169.44deg, rgba(58, 129, 191, 0.08) 1.85%, rgba(65, 48, 90, 0.08) 98.72%);
 }
 
 body{
@@ -246,7 +247,7 @@ footer p{
         position: relative;
         overflow: hidden;
         display: block;
-        z-index: 10;
+        
     }
     
     .logo {
@@ -264,8 +265,7 @@ footer p{
     }
 
     .nav-list{
-        /* display: none; */
-        /* background-color: black; */
+        display: none; 
     }
 
     .nav-list a {
@@ -290,6 +290,7 @@ footer p{
         width: 100%;
         display: flex;
         flex-direction: column;
+        text-align: center;
     }
 
     .head-details h1 {
@@ -327,6 +328,7 @@ footer p{
         margin: 0;
         width: 20rem;
         margin: auto;
+        border: none;
     }
 
     .dynamicImages{
