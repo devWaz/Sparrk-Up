@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #162A60;
+    color: white;
+}
+
+header {
+    border: 1px solid red;
+}
