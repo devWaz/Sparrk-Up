@@ -1,14 +1,144 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #162A60;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
-    border: 1px solid red;
+    display: flex;
+    padding: 1rem 5rem;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+.logo img {
+    width: 216px;
+    height: 65px;
+}
+
+.greeting {
+    display: flex;
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.greeting span {
+    font-weight: 700;
+}
+
+.greeting img {
+    width: 32px;
+    margin-left: 1rem;
+}
+
+.first-section {
+    text-align: center;
+}
+
+.lemon-box {
+    position: absolute;
+    height: 371px;
+    width: 371px;
+    background-color: rgba(172, 190, 32, 0.15);
+    left: -209px;
+    top: 80px;
+    filter: blur(120px);
+}
+
+.first-section h1 {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 122px;
+}
+
+.first-section p {
+    width: 1066px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.first-section .passion {
+    color: #AEC836;
+    font-weight: 700;
+}
+
+.pink-box {
+    position: absolute;
+    width: 181px;
+    height: 181px;
+    margin-left: 1165px;
+    top: 350px;
+    background: rgba(212, 59, 128, 0.23);
+    filter: blur(100px);
+}
+
+.second-section {
+    padding: 3rem 0;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    margin: 2rem 5rem;
+    display: flex;
+}
+
+.product-details {
+    width: 210px;
+    margin-left: 2rem;
+}
+
+.product-details h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.product-details p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 1rem;
+}
+
+.product-details span {
+    font-weight: 700;
+}
+
+.blue-box {
+    position: absolute;
+    width: 123px;
+    height: 123px;
+    left: 605px;
+    top: 895px;
+    background: rgba(79, 175, 230, 0.76);
+    filter: blur(100px);
+}
+
+.gold-stars {
+    position: absolute;
+    width: 275px;
+    height: 204px;
+    left: -84px;
+    top: 803px;
+}
+
+.green-dots {
+    position: absolute;
+    left: 1207px;
+    top: 1145px;
+    border-radius: 0px;
 }
