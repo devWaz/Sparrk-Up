@@ -142,3 +142,70 @@ header {
     top: 1145px;
     border-radius: 0px;
 }
+
+
+/* Mobile Res */
+@media (max-width:600px) {
+    header {
+        padding: 0;
+        padding: 0.2rem 1rem;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    .greeting p {
+        font-size: 10px;
+    }
+
+    .greeting img {
+        width: 20px;
+        margin-left: 0.5rem;
+        margin-top: 20%;
+    }
+
+    .greeting {
+        align-items: center;
+    }
+
+    .first-section h1 {
+        font-size: 25px;
+    }
+
+    .first-section p {
+        width: auto;
+    }
+
+
+    .lemon-box {
+        height: 150px;
+        width: 200px;
+    }
+
+    .blue-box {
+        display: none;
+    }
+
+    .green-dots {
+        display: none;
+    }
+
+    .gold-stars {
+        height: 70px;
+        top: 700px;
+        left: -110px;
+    }
+
+    .pink-box {
+        display: none;
+    }
+
+    .product {
+        width: 90%;
+    }
+
+    .product img {
+        width: 100px;
+    }
+}
